@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     /* background-image: url('images/bg.jpeg'); */
+     /* background-repeat: no-repeat;  */
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+
+}
+.taskbar{
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  display: flex;
+  background-color: #f6f6f6;;
+  width: 100%;
+  z-index: 100;
+}
+#win img{
+    height: 24px;
+    width: 26px;
+    margin: 14px 12px;
+    bottom: 0;
+}
+
+#search img{
+    height: 24px;
+    width: 26px;
+    margin: 14px 12px;   
+}
+#mail img{
+    height: 24px;
+    width: 26px;
+    margin: 14px 12px;   
+}
+#file img{
+    height: 24px;
+    width: 26px;
+    margin: 14px 12px;   
+}
+#edge img{
+    height: 24px;
+    width: 26px;
+    margin: 14px 12px;   
+}
+#store img{
+    height: 24px;
+    width: 26px;
+    margin: 14px 12px;   
+}
+#rightBar{
+   position: absolute;
+   right: 0;
+}
+.startMenu{
+    position: absolute;
+    bottom: -570px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s ease-in;
+    z-index: 200;
+}
+
+.explorer{
+    position: absolute;
+    bottom: -710px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.5s linear;
+    z-index: 10;
+}
+.startMenu img{
+    height: 88vh;
+    border-radius: 9px;
+    width: 84vh;
+}
