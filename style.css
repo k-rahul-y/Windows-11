@@ -57,7 +57,7 @@ body{
 }
 .startMenu{
     position: absolute;
-    bottom: -570px;
+    bottom: -670px;
     width: 100%;
     text-align: center;
     transition: all 0.5s ease-in;
