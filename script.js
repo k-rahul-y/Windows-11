@@ -6,7 +6,7 @@ let explorer = document.getElementsByClassName('explorer')[0]
 
 win.addEventListener("click",()=>{
     if(startMenu.style.bottom == "60px"){
-        startMenu.style.bottom = "-570px"
+        startMenu.style.bottom = "-670px"
     }
     else{
         startMenu.style.bottom = "60px"
